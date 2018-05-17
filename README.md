@@ -19,7 +19,7 @@ $ cp config/database.yml.example config/database.yml
 $ cp config/secrets.yml.example config/secrets.yml
 
 $ bundle install
-$ rails db:migrate
+$ rake db:create db:migrate
 $ yarn install
 $ brew install hivemind
 $ hivemind Procfile.dev

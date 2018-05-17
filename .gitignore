@@ -24,3 +24,5 @@
 .DS_Store
 config/database.yml
 config/secrets.yml
+.ruby-gemset
+.ruby-version
